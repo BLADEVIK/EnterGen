@@ -38,8 +38,8 @@ body {
   color: #1d1f2b;
 }
 
-/* Геройская секция */
-.hero {
+/* название */
+.title {
   position: relative;
   margin-top: 40px;
   display: flex;
@@ -47,7 +47,7 @@ body {
   align-items: center;
   background-color: #eaeaea;
 }
-.hero__title {
+.title__text {
   font-size: 120px;
   font-weight: 400;
   text-transform: uppercase;
@@ -232,7 +232,7 @@ footer p {
 
 /* Адаптивность */
 @media (max-width: 1199px) {
-  .hero__title {
+  .title__text {
     font-size: 108px;
   }
   description__text {
@@ -243,7 +243,7 @@ footer p {
   }
 }
 @media (max-width: 959px) {
-  .hero__title {
+  .title__text {
     font-size: 68px;
   }
   description__text {
@@ -257,7 +257,7 @@ footer p {
   }
 }
 @media (max-width: 639px) {
-  .hero__title {
+  .title__text {
     font-size: 50px;
   }
   .description__text {
@@ -275,7 +275,7 @@ footer p {
   }
 }
 @media (max-width: 479px) {
-  .hero__title {
+  .title__text {
     font-size: 60px;
   }
   footer a {
