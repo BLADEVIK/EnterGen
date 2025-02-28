@@ -22,14 +22,13 @@
     <nav class="navigation">
       <a class="navigation__link" href="#Заглушка">ELIZAVETA DMITRIEVA</a>
       <a class="navigation__link" href="#Заглушка">WORK</a>
-      <a class="navigation__link" href="#Заглушка">ABOUT</a>
+      <a class="navigation__link" id="about-link" href="">ABOUT</a>
       <a class="navigation__link" href="#Заглушка">CONTACT</a>
     </nav>
     <!-- Описание -->
     <section class="description">
       <p class="description__text">
-        Цифровой дизайнер и арт-директор. Страсть к созданию контента с помощью
-        ИИ.
+        digital designer and art director. Passion with AI generating content.
       </p>
     </section>
 
@@ -42,7 +41,7 @@
           class="projects__image"
         />
         <p class="projects__description">
-            app interface, website, Visual Communication; Logo
+          app interface, website, Visual Communication; Logo
         </p>
       </div>
 
@@ -53,17 +52,13 @@
           class="projects__image"
         />
         <p class="projects__description">
-            Visual Communication; Logo Design; Print Design; website
+          Visual Communication; Logo Design; Print Design; website
         </p>
       </div>
       <div class="projects__item-big">
-        <img
-          src="./img/image7.jpg"
-          alt="Project 2"
-          class="projects__image"
-        />
+        <img src="./img/image7.jpg" alt="Project 2" class="projects__image" />
         <p class="projects__description">
-            Visual Communication; Logo Design; Identity Guidelines; Print Design
+          Visual Communication; Logo Design; Identity Guidelines; Print Design
         </p>
       </div>
       <div class="projects__item">
@@ -73,7 +68,7 @@
           class="projects__image"
         />
         <p class="projects__description">
-            Print Design for triumph gallery (modern art)
+          Print Design for triumph gallery (modern art)
         </p>
       </div>
       <div class="projects__item">
@@ -83,7 +78,7 @@
           class="projects__image"
         />
         <p class="projects__description">
-            Visual Communication; Logo Design; social media
+          Visual Communication; Logo Design; social media
         </p>
       </div>
     </section>
@@ -101,9 +96,32 @@
         <a class="social__link" href="">WhatsApp</a>
       </section>
       <section class="runingLine">
-        <span class="runingLine__text">LET'S START A NEW PROJECT
-        </span>
+        <span class="runingLine__text">LET'S START A NEW PROJECT </span>
       </section>
     </footer>
+    <title>Форма обратной связи</title>
+
+    
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Обратная связь</h2>
+        <form id="feedback-form">
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="phone">Телефон:</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
