@@ -48,7 +48,7 @@ body {
   background-color: #eaeaea;
 }
 .hero__title {
-  font-size: 142px;
+  font-size: 120px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: -2px;
@@ -127,7 +127,7 @@ body {
 .button {
   display: inline-block;
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 600;
   color: #ebd721;
   background-color: #090a0a;
@@ -194,6 +194,7 @@ footer p {
 }
 .social__link {
   text-decoration: none;
+  font-size: 35px;
 }
 .runingLine {
   width: 100%;
@@ -208,7 +209,6 @@ footer p {
   display: inline-block;
   padding-left: 100%;
   animation: marquee 10s linear infinite;
-  
 }
 @keyframes marquee {
   from {
@@ -235,6 +235,9 @@ footer p {
   .hero__title {
     font-size: 108px;
   }
+  description__text {
+    font-size: 30px;
+  }
   footer a {
     font-size: 50px;
   }
@@ -242,6 +245,9 @@ footer p {
 @media (max-width: 959px) {
   .hero__title {
     font-size: 68px;
+  }
+  description__text {
+    font-size: 25px;
   }
   .projects__item {
     width: 100%;
@@ -254,10 +260,17 @@ footer p {
   .hero__title {
     font-size: 50px;
   }
+  .description__text {
+    font-size: 20px;
+  }
   footer a {
     font-size: 20px;
   }
-  .runingLine{
+  .social__link {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .runingLine {
     font-size: 15px;
   }
 }
@@ -268,10 +281,14 @@ footer p {
   footer a {
     font-size: 20px;
   }
+  .social__link {
+    text-decoration: none;
+    font-size: 20px;
+  }
   footer p {
     font-size: 18px;
   }
-  .runingLine{
+  .runingLine {
     font-size: 15px;
   }
 }
