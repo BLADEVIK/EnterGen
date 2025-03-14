@@ -1,4 +1,3 @@
 # Frontend
-# Deploy : https://entergen-blade44.netlify.app/
-
+# Deploy : https://bladevik-entergen-pages.netlify.app/
 
